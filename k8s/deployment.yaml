@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argoapp
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: argoapp
+  template:
+    metadata:
+      labels:
+        app: argoapp
+    spec:
+      containers:
+      
+      - image: archindex/argoappex:1.0.0
+        name: archindec-argoapp
+        ports:
+        - containerPort: 3000

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: argoapp-svc
+spec:
+  ports:
+  - port: 8080
+    targetPort: 3000
+  selector:
+    app: argoapp
