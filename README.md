@@ -9,6 +9,8 @@ Version
 Version|Detail|Date
 ---|---|---
 1.0.0|Intitial|23-Jun-20
+1.0.1|Update-Dockerfile|22-Jun-21
+1.0.2|Update-Contenxt|22-Jun-21
 
 
 Purpose 

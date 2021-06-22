@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       
-      - image: archindex/argoappex:1.0.0
+      - image: archindex/argoappex:1.0.2
         name: archindec-argoapp
         ports:
         - containerPort: 3000
